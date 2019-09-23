@@ -1,5 +1,6 @@
 package ipca.example.nameage
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -24,7 +25,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         Log.d(TAG_ACTIVITY, editTextName!!.text.toString() )
-        Log.d(TAG_ACTIVITY, editTextAge!!.text.toString() )
+        Log.d(TAG_ACTIVITY, editTextPhone!!.text.toString() )
+
+        val intent = Intent(this@MainActivity, SecondActivity::class.java)
+        intent.putExtra(SecondActivity.NAME_EXTRA, editTextName!!.text.toString()  )
+        intent.putExtra(SecondActivity.AGE_EXTRA , editTextPhone!!.text.toString()  )
+        startActivity(intent)
     }
 
 }

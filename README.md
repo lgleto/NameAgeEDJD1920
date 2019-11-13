@@ -1,4 +1,4 @@
-# Android Kotlin MyFinance Example - EDJD 2019/2020
+# Android Kotlin Name Age Example - EDJD 2019/2020
 This example was wirten during the Mobile Computing lectures in the course 'Lincentura em Engenharia de Jogos Digitais' at IPCA.
 
 ## Topics covered in this example:

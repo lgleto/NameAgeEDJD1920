@@ -3,8 +3,10 @@ This example was wirten during the Mobile Computing lectures in the course 'Linc
 
 ## Topics covered in this example:
 0. Activities
-2. Views
-5. On Click Listneres
+1. Views
+2. On Click Listneres
+3. Intents
+- Call intent example
 
 ## Authors 
 
